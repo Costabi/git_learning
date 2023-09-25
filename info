@@ -22,3 +22,11 @@ git commit -m ' ABC-1 Добавили файл1'
 8. Переключение на ветку
 git checkout branch_name
 git checkout -b branch_name (создать ветку, если её нету)
+9. Обновляет код с удалённого репозитория
+git pull
+10. Временное хранилище для полезного кода(положить)
+git stash
+git stash apply (забрать из стэша)
+11. Объединение веток
+git merge
+git rebase
